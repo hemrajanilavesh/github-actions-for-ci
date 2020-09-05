@@ -23,7 +23,7 @@ jobs:
     - uses:  actions/upload-artifact@master
       with:
         name: webpack artifacts
-        path: /public
+        path: public/
   test:
     runs-on: ${{ matrix.os }}
     strategy:
