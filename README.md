@@ -1,3 +1,5 @@
-# Tic Tac Toe Game
+# Understand GitHub Workflows and Actions
 
-Learn GitHub Actions through a fun little game.
+[![HitCount](http://hits.dwyl.com/hemrajanilavesh/github-actions-for-ci.svg)](http://hits.dwyl.com/hemrajanilavesh/github-actions-for-ci)
+
+
