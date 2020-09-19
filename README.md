@@ -27,8 +27,8 @@ It will do the following:
     <tr><td>windows-2016</td><td>12.x</td><td>14.x</td></tr>
     </tbody>
     </table>
-5. Build Docker Image
-6. Push Docker Image to Github Registry 
+5. Generate Code Coverage Report and publish to https://codecov.io/    
+6. Build Docker Image and publish to Github Registry 
 
 ##### Published Image can be found [here](https://github.com/hemrajanilavesh/github-actions-for-ci-cd/packages/404800)
 
@@ -38,7 +38,8 @@ It will do the following:
 - [Upload Artifact](https://github.com/actions/upload-artifact)
 - [Download Artifact](https://github.com/actions/download-artifact)
 - [Setup Node](https://github.com/actions/setup-node)
-- [Docker Build Push](https://github.com/docker/build-push-action) 
+- [Docker Build Push](https://github.com/docker/build-push-action)
+- [Codecov](https://github.com/marketplace/actions/codecov)
 
 ## References
 
