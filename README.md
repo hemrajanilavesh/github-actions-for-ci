@@ -1,10 +1,11 @@
 # Using Github Actions for CI-CD Workflow
 
-The repository contains a working example of Continuous Integration & Continuous Delivery of a Tic Tac Toe Web App. 
-
 [![Node.js CI](https://github.com/hemrajanilavesh/github-actions-for-ci-cd/workflows/Node.js%20CI/badge.svg?branch=master)](https://github.com/hemrajanilavesh/github-actions-for-ci-cd/actions?query=branch%3Amaster+is%3Acompleted)
 [![codecov](https://codecov.io/gh/hemrajanilavesh/github-actions-for-ci-cd/branch/master/graph/badge.svg)](https://codecov.io/gh/hemrajanilavesh/github-actions-for-ci-cd)
+[![Known Vulnerabilities](https://snyk.io/test/github/hemrajanilavesh/github-actions-for-ci-cd/badge.svg?targetFile=package.json)](https://snyk.io/test/github/hemrajanilavesh/github-actions-for-ci-cd?targetFile=package.json)
 
+The repository contains a working example of Continuous Integration & Continuous Delivery of a Tic Tac Toe Web App.
+ 
 ## Workflow Contents
 
 ##### Workflow file can be found [here](https://github.com/hemrajanilavesh/github-actions-for-ci-cd/blob/master/.github/workflows/node.js.yml)
