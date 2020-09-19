@@ -47,7 +47,24 @@ jobs:
           npm install
           npm test
         env:
-          CI: true        
+          CI: true
+  coverage:
+    needs: [test]
+
+    runs-on: ubuntu-latest         
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: npm install build and test
+        run: |
+          npm install
+          npm run build
+          npm run test-ci
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          directory: ./coverage/
+          env_vars: os, node-version
           
   Build-and-Push-Docker-Image:
     runs-on: ubuntu-latest
