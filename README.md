@@ -2,9 +2,7 @@
 
 The repository contains a working example of Continuous Integration & Continuous Delivery of a Tic Tac Toe Web App. 
 
-![Build](https://github.com/hemrajanilavesh/github-actions-for-ci-cd/workflows/Node.js%20CI/badge.svg?branch=master)
-[![HitCount](http://hits.dwyl.com/hemrajanilavesh/github-actions-for-ci-cd.svg)](http://hits.dwyl.com/hemrajanilavesh/github-actions-for-ci-cd)
-
+![Build](https://github.com/hemrajanilavesh/github-actions-for-ci-cd/workflows/Node.js%20CI/badge.svg?branch=master)(https://github.com/hemrajanilavesh/github-actions-for-ci-cd/actions?query=workflow%3A%22Node.js+CI%22+branch%3Amaster+is%3Acompleted)
 
 ## Workflow Contents
 
