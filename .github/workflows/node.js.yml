@@ -64,9 +64,3 @@ jobs:
           path: public
       - name: Build container image
         uses: docker/build-push-action@v2
-        with:
-          username: ${{github.actor}}
-          password: ${{secrets.GITHUB_TOKEN}}
-          registry: docker.pkg.github.com
-          repository: hemrajanilavesh/github-actions-for-ci-cd/tic-tac-toe-app
-          tag_with_sha: true
