@@ -47,7 +47,12 @@ jobs:
           npm install
           npm test
         env:
-          CI: true        
+          CI: true
+      - name: Upload coverage to Codecov
+      - uses: codecov/codecov-action@v1
+        with:
+          directory: ./coverage/lcov-report/
+          env_vars: os, node-version         
           
   Build-and-Push-Docker-Image:
     runs-on: ubuntu-latest
