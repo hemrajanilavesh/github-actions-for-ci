@@ -1,6 +1,6 @@
 # Using Github Actions for CI-CD Workflow
 
-[![Node.js CI](https://github.com/hemrajanilavesh/github-actions-for-ci-cd/workflows/Node.js%20CI/badge.svg?branch=master)](https://github.com/hemrajanilavesh/github-actions-for-ci-cd/actions?query=branch%3Amaster+is%3Acompleted)
+[![Node.js CI](https://github.com/hemrajanilavesh/github-actions-for-ci-cd/workflows/Node.js%20CI/badge.svg?branch=master&event=push)](https://github.com/hemrajanilavesh/github-actions-for-ci-cd/actions?query=branch%3Amaster+is%3Acompleted)
 [![codecov](https://codecov.io/gh/hemrajanilavesh/github-actions-for-ci-cd/branch/master/graph/badge.svg)](https://codecov.io/gh/hemrajanilavesh/github-actions-for-ci-cd)
 [![Known Vulnerabilities](https://snyk.io/test/github/hemrajanilavesh/github-actions-for-ci-cd/badge.svg?targetFile=package.json)](https://snyk.io/test/github/hemrajanilavesh/github-actions-for-ci-cd?targetFile=package.json)
 
