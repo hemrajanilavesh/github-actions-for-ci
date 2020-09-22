@@ -28,6 +28,7 @@ jobs:
       with:
         name: webpack artifacts
         path: public/
+
   test:
     needs: [build]
     runs-on: ${{ matrix.os }}
@@ -53,7 +54,7 @@ jobs:
         env:
           CI: true
   coverage:
-    needs: [test]
+    needs: [build]
 
     runs-on: ubuntu-latest         
 
@@ -69,7 +70,21 @@ jobs:
         with:
           directory: ./coverage/
           env_vars: os, node-version
-          
+ 
+  security:
+    needs: [build]
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run Snyk to check for vulnerabilities
+      uses: snyk/actions/node@master
+      env:
+        SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+      with:
+        command: monitor 
+
   Build-and-Push-Docker-Image:
     runs-on: ubuntu-latest
     needs: test
